@@ -1,0 +1,6 @@
+version: '3'
+services: 
+  web: 
+    image: ruby:2.6.0-alpine
+    volumes:
+      - .:/koans
